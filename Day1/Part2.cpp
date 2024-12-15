@@ -7,7 +7,6 @@
 #include <string>
 #include <vector>
 #include <regex>
-#include <ranges>
 #include <cmath>
 
 std::vector<std::string> split(const std::string& s, const std::string& delimiter) {
@@ -62,5 +61,4 @@ int main() {
 
     result = std::accumulate(leftID.begin(), leftID.end(), 0);
     std::cout << result;
-
 }
